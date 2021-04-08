@@ -1,0 +1,120 @@
+#fp-nav ul li a span, .fp-slidesNav ul li a span {background: #fff;}
+.row {padding: 0 80px 0 40px;}
+.content_txt {font-size: 20px;}
+.content_code {margin-top: -20px; margin-bottom: -20px; font-size: 16px;}
+
+/* Header */
+#header {
+	width: 100%;
+	background-color: #000;
+	position: fixed;
+	height: 50px;
+	line-height: 50px;
+	top: 0; z-index: 10;
+}
+#header:before {content: ''; position: absolute; overflow: hidden; left: 0; bottom: 0; width: 100%; height: 2px; background: #fff; box-sizing: border-box;}
+#header li {float: left;}
+#header li a {color: #fff; font-size: 20px;}
+#header li:hover a {color: #666;}
+#header .header_contact {padding-left: 70px; color: #fff; float: left; font-size: 16px;}
+#header .header_contact em {padding: 0 30px;}
+
+/* Main */
+.main {background-color: #000;}
+.main h1 {font-size: 50px; font-weight 900; color: #fff;}
+.main h2 {font-size: 30px; font-weight 900; color: #fff;}
+
+/* Introduce */
+.introduce {background-color: #000;}
+.introduce h1 {font-size: 50px; color: #fff; padding-bottom: 100px;}
+.introduce .info_sub {width: 40%;}
+.introduce .sub1 {float: left; padding-bottom: 30px;}
+.introduce .sub2 {float: left; padding-left: 10%; padding-bottom: 30px;}
+.introduce .sub3 {float: left;}
+.introduce .sub4 {float: left; padding-left: 10%;}
+.introduce .info_sub h2 {padding-bottom: 10px; font-size: 30px; color: #fff;}
+.introduce .info_sub .sub_txt {font-size: 20px; color: #999;}
+
+/* Game */
+.game {overflow: hidden; background-color: #000;}
+.game h1 {padding-bottom: 50px; color: #fff; font-size: 50px;}
+.game .game_select_wrap {float: left; width: 100%; padding-right: 5%;}
+.game .game_selectmenu {
+	width: 100%; height: 80px; padding-left: 20px;
+	border: 5px solid #fff; border-radius: 5px; box-sizing: border-box;
+	color: #fff; background-color: #000;
+	font-size: 30px; font-weight: 700;
+}
+.game .game_contents_area {
+	display: block; overflow-y: auto;
+	width: 100%; height: 450px; padding: 20px; margin-top: -5px;
+	border: 5px solid #fff; border-radius: 5px; box-sizing: border-box;
+}
+.game .game_contents_area .content_txt {display: block; font-size: 20px; color: #fff;}
+.game .shortcut_link_wrap {padding-top: 50px;}
+
+/* Game Screenshots */
+.game_ss {background-color: #000;}
+
+/* Portfolio */
+.portfolio {background-color: #000;}
+.portfolio h1 {padding-bottom: 70px; color: #fff; font-size: 50px;}
+.portfolio .portfolio_sub {color: #fff; font-size: 20px;}
+
+/* Megabox */
+.megabox {background-color: #000;}
+.megabox h1 {padding-bottom: 50px; font-size: 50px; color: #fff;}
+.megabox .megabox_img {float: left; width: 58%; height: 560px; padding-right: 2%; padding-left: 5%; object-fit: contain; object-position: right; filter: brightness(110%);}
+.megabox .megabox_sub {float: left; width: 28%; height: 560px; padding-right: 5%; padding-left: 2%; color: #fff; font-size: 20px;}
+.megabox .megabox_sub .megabox_sub1 {padding-bottom: 50px;}
+.megabox .megabox_sub .megabox_sub2 {padding-bottom: 50px;}
+
+
+/* responsive */
+.responsive {background-color: #000;}
+.responsive h1 {padding-bottom: 50px; font-size: 50px; color: #fff;}
+.responsive .responsive_img {float: left; width: 58%; height: 560px; padding-right: 2%; padding-left: 5%; object-fit: contain; object-position: right; filter: brightness(110%);}
+.responsive .responsive_sub {float: left; width: 28%; height: 560px; padding-right: 5%; padding-left: 2%; color: #fff; font-size: 20px;}
+.responsive .responsive_sub .responsive_sub1 {padding-bottom: 50px;}
+.responsive .responsive_sub .responsive_sub2 {padding-bottom: 50px;}
+
+/* Standard */
+.standard {background-color: #000;}
+.standard h1 {padding-bottom: 50px; font-size: 50px; color: #fff;}
+.standard .standard_img {float: left; width: 50%; height: 560px; padding-right: 2%; padding-left: 5%; object-fit: contain; object-position: right;}
+.standard .standard_sub {float: left; width: 36%; height: 560px; padding-right: 5%; padding-left: 2%; color: #fff; font-size: 20px;}
+.standard .standard_sub .standard_sub1 {padding-bottom: 50px;}
+
+/* Thank */
+.thank {overflow: hidden; background-color: #000;}
+.thank .thank_left {float: left; width: 47%; padding-right: 6%; color: #fff; text-align: right;}
+.thank .thank_left .left_big {padding-bottom: 50px; font-size: 70px; font-weight: 700;}
+.thank .thank_left .left_small {font-size: 20px; line-height: 40px;}
+.thank .thank_right {float: left; width: 47%; color: #fff;}
+.thank .thank_right .right_big {padding-bottom: 50px; font-size: 70px; font-weight: 700;}
+.thank .thank_right .left_small {font-size: 20px; line-height: 40px;}
+.thank .thank_right .left_contact {padding-top: 60px; font-size: 18px; line-height: 30px;}
+
+.fp-controlArrow {top: 95%}
+.fp-controlArrow.fp-prev {border-width: 25px 30px 25px 0;}
+.fp-controlArrow.fp-next {border-width: 25px 0 25px 30px;}
+.fp-slidesNav.fp-bottom {text-align: center; top: 95%;}
+
+
+
+/* -------------------------------------------------------------------------------------- */
+/* ------------------------------------- MediaQuery ------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+@media (max-width: 1024px){
+	.introduce h1 {font-size: 40px; padding-bottom: 80px;}
+	.introduce .info_sub h2 {font-size: 25px;}
+	.introduce .info_sub .sub_txt {font-size: 15px;}
+}
+
+@media (max-width: 600px){
+	#header .header_contact {padding-left: 40px;}
+
+	.introduce h1 {font-size: 30px; padding-bottom: 50px;}
+	.introduce .info_sub h2 {font-size: 22px;}
+	.introduce .info_sub .sub_txt {font-size: 14px;}
+}
