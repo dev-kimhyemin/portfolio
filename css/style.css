@@ -62,8 +62,8 @@
 /* Portfolio */
 .portfolio {background-color: #000;}
 .portfolio h1 {padding-bottom: 50px; font-size: 50px; color: #fff;}
-.portfolio .portfolio_img {float: left; width: 50%; height: 560px; padding-right: 2%; padding-left: 5%; object-fit: contain; object-position: right;}
-.portfolio .portfolio_sub {float: left; width: 36%; height: 560px; padding-right: 5%; padding-left: 2%; color: #fff; font-size: 20px;}
+.portfolio .portfolio_img {float: left; width: 45%; height: 560px; padding-right: 2%; padding-left: 5%; object-fit: contain; object-position: right;}
+.portfolio .portfolio_sub {float: left; width: 36%; height: 560px; padding-right: 10%; padding-left: 2%; color: #fff; font-size: 20px;}
 .portfolio .portfolio_sub .portfolio_sub1 {padding-bottom: 50px;}
 .portfolio .portfolio_sub .portfolio_sub2 {padding-bottom: 50px;}
 
@@ -71,8 +71,8 @@
 /* Megabox */
 .megabox {background-color: #000;}
 .megabox h1 {padding-bottom: 50px; font-size: 50px; color: #fff;}
-.megabox .megabox_img {float: left; width: 58%; height: 560px; padding-right: 2%; padding-left: 5%; object-fit: contain; object-position: right; filter: brightness(110%);}
-.megabox .megabox_sub {float: left; width: 28%; height: 560px; padding-right: 5%; padding-left: 2%; color: #fff; font-size: 20px;}
+.megabox .megabox_img {float: left; width: 55%; height: 560px; padding-right: 2%; padding-left: 5%; object-fit: contain; object-position: right; filter: brightness(110%);}
+.megabox .megabox_sub {float: left; width: 28%; height: 560px; padding-right: 8%; padding-left: 2%; color: #fff; font-size: 20px;}
 .megabox .megabox_sub .megabox_sub1 {padding-bottom: 50px;}
 .megabox .megabox_sub .megabox_sub2 {padding-bottom: 50px;}
 
@@ -80,24 +80,24 @@
 /* responsive */
 .responsive {background-color: #000;}
 .responsive h1 {padding-bottom: 50px; font-size: 50px; color: #fff;}
-.responsive .responsive_img {float: left; width: 58%; height: 560px; padding-right: 2%; padding-left: 5%; object-fit: contain; object-position: right; filter: brightness(110%);}
-.responsive .responsive_sub {float: left; width: 28%; height: 560px; padding-right: 5%; padding-left: 2%; color: #fff; font-size: 20px;}
+.responsive .responsive_img {float: left; width: 55%; height: 560px; padding-right: 2%; padding-left: 5%; object-fit: contain; object-position: right; filter: brightness(110%);}
+.responsive .responsive_sub {float: left; width: 28%; height: 560px; padding-right: 8%; padding-left: 2%; color: #fff; font-size: 20px;}
 .responsive .responsive_sub .responsive_sub1 {padding-bottom: 50px;}
 .responsive .responsive_sub .responsive_sub2 {padding-bottom: 50px;}
 
 /* Standard */
 .standard {background-color: #000;}
 .standard h1 {padding-bottom: 50px; font-size: 50px; color: #fff;}
-.standard .standard_img {float: left; width: 50%; height: 560px; padding-right: 2%; padding-left: 5%; object-fit: contain; object-position: right;}
-.standard .standard_sub {float: left; width: 36%; height: 560px; padding-right: 5%; padding-left: 2%; color: #fff; font-size: 20px;}
+.standard .standard_img {float: left; width: 45%; height: 560px; padding-right: 2%; padding-left: 5%; object-fit: contain; object-position: right;}
+.standard .standard_sub {float: left; width: 36%; height: 560px; padding-right: 10%; padding-left: 2%; color: #fff; font-size: 20px;}
 .standard .standard_sub .standard_sub1 {padding-bottom: 50px;}
 
 /* Thank */
 .thank {overflow: hidden; background-color: #000;}
-.thank .thank_left {float: left; width: 47%; padding-right: 6%; color: #fff; text-align: right;}
+.thank .thank_left {float: left; width: 46%; padding-left: 2%; padding-right: 6%; color: #fff; text-align: right;}
 .thank .thank_left .left_big {padding-bottom: 50px; font-size: 70px; font-weight: 700;}
 .thank .thank_left .left_small {font-size: 20px; line-height: 40px;}
-.thank .thank_right {float: left; width: 47%; color: #fff;}
+.thank .thank_right {float: left; width: 46%; color: #fff;}
 .thank .thank_right .right_big {padding-bottom: 50px; font-size: 70px; font-weight: 700;}
 .thank .thank_right .left_small {font-size: 20px; line-height: 40px;}
 .thank .thank_right .left_contact {padding-top: 60px; font-size: 18px; line-height: 30px;}
